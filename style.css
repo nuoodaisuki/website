@@ -57,7 +57,7 @@ header .head {
   font-size: 20px;
 }
 
-.Portfolio-color {
+.color {
   background-color: #ECEFF1;
   width: 100%;
 }
@@ -171,4 +171,43 @@ header .head {
   font-weight: bold;
   color: #000000;
   margin: 10px 0;
+}
+
+#Profile {
+  width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.Profile-area {
+  display: flex;
+}
+
+.Self-introduction-area {
+  width: 50%;
+}
+
+.my-photo {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 100%;
+  background-image: url(img/my-icon.jpg);
+}
+
+.my-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.my-text {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.my-skill {
+  font-size: 16px;
+  color: #000000;
 }
