@@ -68,14 +68,15 @@ header .head {
   padding-bottom: 90px;
 }
 
-.Portfolio-text-box {
+.text-box {
   padding-top: 90px;
   text-align: center;
-  color: #000000;
 }
 
-.Portfolio-text {
+.text {
   font-size: 32px;
+  font-weight: bold;
+  color: #000000;
 }
 
 .underline {
@@ -85,9 +86,10 @@ header .head {
   background-color: #EC715F;
 }
 
-.Portfolio-mini-text {
+.mini-text {
   font-size: 16px;
   margin-bottom: 30px;
+  color: #000000;
 }
 
 .Photo-library {
@@ -139,4 +141,34 @@ header .head {
   background-image :url(img/webcamp-mother.png);
   background-size: cover;
   background-position: center;
+}
+
+#Feature {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.Three-features {
+  display: flex;
+}
+
+.area-of-features {
+  width: 320px;
+  text-align: center;
+}
+
+.area-of-features:nth-child(2) {
+  margin: 0 10px;
+}
+
+.area-of-features i {
+  font-size: 60px;
+}
+
+.feature-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin: 10px 0;
 }
