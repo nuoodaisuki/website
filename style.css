@@ -243,6 +243,10 @@ header .head {
   margin: 0 20px;
 }
 
+.icon-area {
+  display: flex;
+}
+
 footer {
   width: 100%;
   height: 60px;
@@ -290,5 +294,99 @@ footer {
     width: 25px;
     background-color: #FAFAFA;
     margin: 5px auto;
+  }
+
+  #About {
+    background-image: url(img/code.png);
+  }
+
+  .About-text {
+    font-size: 40px;
+  }
+
+  .About-mini-text {
+    font-size: 18px;
+  }
+
+  br {
+    display: none;
+  }
+
+  #Portfolio {
+    width: 100%;
+  }
+
+  .Photo-library {
+    display: block;
+  }
+
+  .Photo:nth-child(even) {
+    margin: 0 auto;
+  }
+
+  .Photo:nth-child(2) {
+    margin-bottom: 10px;
+  }
+
+  .Photo:nth-child(4) {
+    margin-bottom: 10px;
+  }
+
+  .Photo:nth-child(odd) {
+    display: none;
+  }
+
+  #Feature {
+    width: 100%;
+  }
+
+  .Three-features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-mini-text {
+    margin-bottom: 10px;
+  }
+
+  #Profile {
+    width: 100%;
+  }
+
+  .side-area {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-photo {
+    margin-bottom: 20px;
+  }
+
+  .my-title {
+    text-align: center;
+  }
+
+  .my-text {
+    text-align: center;
+  }
+
+  .my-skill {
+    text-align: center;
+  }
+
+  .half-area {
+    width: 100%;
+  }
+
+  #Contact {
+    width: 100%;
+  }
+
+  .half-area-b {
+    margin-top: 20px;
+  }
+
+  .icon-area {
+    align-items: center;
   }
 }
